@@ -105,9 +105,12 @@ Exemplo:
 
 As etapas de modelagem (conceitual e lógica) são as principais fases de desenvolvimento de um banco de dados. Por este motivo, é imprescindível ter atenção no decorrer do estudo pois uma modelagem bem feita fornece benefícios à base dados projetada e, por consequência, a construção de um banco de dados mais sólido.
 
+<!--
 ## Conteúdo Complementar 
 
 [Slides](https://github.com/IgorAvilaPereira/pmbd2022_2sem/raw/main/1ntroducao.pdf)
+
+-->
 
 **Tipos de Bancos de Dados:**
 
