@@ -51,17 +51,21 @@ Os atributos podem ainda ser divididos em 6 categorias:
 * derivados
 * nulo
 
-**Atributo Simples**
+**Atributo Simples ou Monovalorado**
 
 É o atributo indivisível, que não pode ou não deve ser decomposto. Por exemplo, **CPF**, **número de matrícula**, **RG**, **preço do produto** e etc.
 
+<!--
 **Atributo Monovalorado**
+-->
 
 É o atributo quer permite apenas o armazenamento de um valor por vez. Por exemplo, o atributo **CPF** é monovalorado porque a possui apenas um número de CPF. Caso o CPF seja alterado ele é substituído pelo novo valor. Assim, uma pessoa **nunca** terá cadastrado mais um CPF no mesmo tempo.
 
+<!--
 **Atributo nulo**
 
 É o atributo que permite que seja inserido um valor nulo para ele. Valor nulo representa a inexistência de um valor, ou seja, significa que o usuário não precisa cadastrar um valor para o atributo e pode deixá-lo vazio.
+-->
 
 **Atributo Composto**
 
@@ -102,15 +106,14 @@ No DER **devemos grifar o nome do atributo** que definimos como chave primária 
 
 Obs: No caso da representação de atributos por "bolinhas", as chaves primárias devem ter suas "bolinhas" pintadas de preto.
 
-
+<!--
 ### Tipos de Atributo-Chave/Chave Primária/Identificadores
 
 Uma **chave** **primária** pode ser **simples** ou **composta**.
 
 Uma **chave** **primária** **simples** é aquela que será **formada por apenas um atributo**.
 
-Uma **chave** **primária** **composto** é **formada por dois ou mais atributos**. Por exempĺo, imagine que tenhamos uma entidade chamada **Localização** e esta entidade tem os seguintes atributos: **nome da cidade**, **nome do estado** e **nome do país**. Cada um desses atributos sozinhos não pode ser chave primária porque eles se repetem.
-
+Uma **chave** **primária** **composto** é **formada por dois ou mais atributos**. Por exemplo, imagine que tenhamos uma entidade chamada **Localização** e esta entidade tem os seguintes atributos: **nome da cidade**, **nome do estado** e **nome do país**. Cada um desses atributos sozinhos não pode ser chave primária porque eles se repetem.
 
 
 |**nome_cidade**|**nome_estado**   |**nome_país**|
@@ -122,11 +125,11 @@ Uma **chave** **primária** **composto** é **formada por dois ou mais atributos
 
 
 Como os atributos individualmente podem ser repetir, vamos tentar uma chave primária composta. Sabemos que no Brasil um estado não tem duas cidades como o mesmo nome.Sendo assim, poderíamos criar uma chave primária composta do **nome da cidade** mais o **nome do estado**, porque o valor para esses dois atributos juntos nunca vai se repetir. Nesse caso, o atributo **nome da cidade** não é uma chave primária, e sim **faz parte** da chave primária.
+-->
 
 ## Resumo - Representação Gráfica - Atributos
 
 ![tipos-atributos](tipos-atributos.png)
-
 
 ## Conteúdo complementar
 
