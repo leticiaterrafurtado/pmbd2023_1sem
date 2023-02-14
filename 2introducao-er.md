@@ -42,6 +42,7 @@ Outra forma de representação utilizada por algumas ferramentas é representar 
 
 ### Tipos de Atributos
 
+<!--
 Os atributos podem ainda ser divididos em 6 categorias:
 
 * simples
@@ -50,6 +51,7 @@ Os atributos podem ainda ser divididos em 6 categorias:
 * mutivalorados
 * derivados
 * nulo
+-->
 
 **Atributo Simples ou Monovalorado**
 
